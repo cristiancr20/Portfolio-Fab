@@ -1,0 +1,83 @@
+.container{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    margin: 20px;
+    border-radius: 20px;
+    background: #93aedb;
+}
+.container .imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+
+.container .imagen img{
+    border-radius: 20px;
+}
+
+.container .title, 
+.precio,
+.description,
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    margin:20px;
+    
+}
+.boton button{
+    background: rgb(58, 151, 58);
+    border: none;
+    outline: none;
+    width: 35%;
+    height: 25px;
+    margin: auto;
+    color: #000;
+    transition: all .3s ease-in-out;
+}
+
+.boton button:hover{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.modal{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+   
+}
+.modal .modalbody {
+    padding: 10px;
+}
+
+.modal .modalbody img{
+    display: block;
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.modal .modalbody img:hover{
+    transform: scale(0.9);
+    border-radius: 20px;
+}
+
+
+.modal .modalbody .boton{
+    display: flex;
+    width: 50%;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    height: 25px;
+    background: #222;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.modal .modalbody .boton:hover{
+    background: crimson;
+    border-radius: 20px;
+}
